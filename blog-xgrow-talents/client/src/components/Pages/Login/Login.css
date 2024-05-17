@@ -1,0 +1,51 @@
+body {
+    background-color: #F2F2F2;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.title {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 12px;
+}
+
+.title_link {
+    color: #46A29F;
+    text-decoration: none
+}
+
+.labelName {
+    font-weight: 500;
+    margin-right: 14rem;
+    margin-bottom: 0.5rem;
+}
+
+.label {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    width: 16rem;
+    border: 1px solid #C5C6C8;
+}
+
+.loginButton {
+    background-color: #202833;
+    color: #fff;
+    margin-top: 1rem;
+    padding: 0.5rem 7.5rem;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer
+}
+
+input::placeholder {
+    color: #C5C6C8;
+    font-size: 14px;
+    font-weight: 400;
+  }

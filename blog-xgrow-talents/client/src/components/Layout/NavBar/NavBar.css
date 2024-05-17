@@ -1,0 +1,50 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.75rem;
+    background-color: #0b0c10;
+}
+
+.listItens {
+    padding-right: 15rem;
+    list-style-type: none;
+    color: #66FCF1;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+.containerItens {
+    display: flex;
+    list-style-type: none;
+}
+
+.listItensRight {
+    padding-right: 1rem;
+    width: 3rem;
+    color: #66FCF1;
+    text-decoration: none;
+}
+
+#posts{
+    margin: 1rem;
+    padding: 0.5rem;
+    font-weight: 400;
+}
+
+#login {
+    background-color: #202833;
+    color: #fff;
+    margin: 1rem;
+    padding: 0.75rem 1.25rem;
+    font-weight: 400;
+}
+
+#register {
+    margin: 1rem;
+    padding: 0.75rem 1.25rem;
+    border: 0.1px solid #66FCF1 ;    
+    font-weight: 400;
+}
+
+

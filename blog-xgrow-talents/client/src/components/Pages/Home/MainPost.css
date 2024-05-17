@@ -1,0 +1,71 @@
+.linkPost {
+    text-decoration: none;
+    color: #202833;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.mainTitle, 
+.mainSubTitle,
+.mainParagraph,
+.timeRead,
+.created_at {
+    font-family: "DM Sans", sans-serif;
+}
+
+.timeView p {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.timeView {
+    display: flex;
+    align-self: first baseline;
+    gap: 5px;
+}
+
+.mainImagePost {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.mainTitle {
+    align-self: center;
+    font-weight: 600;
+    font-size: 64px;
+    margin-top: 38px;
+}
+
+.mainSubTitle {
+    align-self: center;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.mainParagraph {
+    align-self: self-start;
+    width: 100%;
+    font-size: 32px;
+    font-weight: 500;
+    padding-top: 1rem; 
+    margin: 0 auto; 
+}
+

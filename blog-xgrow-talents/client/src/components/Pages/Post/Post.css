@@ -1,0 +1,96 @@
+.mainContainer {
+    padding: 0 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -8rem;
+    padding-bottom: 250px;
+    background-color: #fff;
+}
+
+.postContainer {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.postInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainTitlePost,
+.timeReadPost,
+.mainImageToPost,
+.mainParagraphPost {
+    font-family: "DM Sans", sans-serif;
+}
+
+.mainTitlePost {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 38px;
+    margin-bottom: 5px;
+}
+
+.timeReadPost {
+    font-size: 20px;
+    font-weight: 400;
+    color: #838383;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+.mainImageToPost {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.mainParagraphPost {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+.comments {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 80px;
+}
+
+.comments h2 {
+    font-size: 32px;
+}
+
+.listComments {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.postItem {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.userAvatar {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid 2px #46A29F;
+}
+
+.commentContent {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.commentContent p {
+    font-weight: 500;
+}
